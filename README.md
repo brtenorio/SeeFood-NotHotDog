@@ -1,5 +1,9 @@
 # SeeFood NotHotDog
 
+
+![](cachorro_quente.jpg)
+
+
 ## Overview
 
 "SeeFood NotHotDog" is a machine-learning project inspired by the TV show Silicon Valley. The goal of the project is to create an application capable of identifying whether an image contains a hot dog or not, similar to the "SeeFood" app depicted in the show. This project utilizes TensorFlow/Keras to train and evaluate two different models: a custom Convolutional Neural Network (CNN) and a VGG16 pre-trained model. The best-performing model was then used to build a web application using Streamlit.
@@ -40,3 +44,8 @@ The best-performing VGG16-based model was integrated into a web application buil
 To launch the web application, run:
 
     streamlit run app.py
+
+Now try with your own images of food!
+The web app should look like below
+
+![](webapp.png)
